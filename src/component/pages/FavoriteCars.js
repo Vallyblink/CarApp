@@ -4,9 +4,11 @@ import CarCard from "../Cards/CarMainCard";
 import styled from "@emotion/styled";
 
 const CarListContainer = styled.div`
+margin-top:50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
 
   > div {
     margin-right: 29px; 
@@ -31,16 +33,19 @@ const CarCardWrapper = styled.div`
     width: 100%; 
   }
 `;
-const FavoriteCars = () => {
+
+
+function FavoriteCars() {
   const favoriteCars = useSelector((state) => state.favoriteCars.likedCars);
 
   return (
     <CarListContainer>
-      <CarCardWrapper>
-        {favoriteCars.map((car) => (
-          <CarCard key={car.id} car={car} />
+      {favoriteCars.map((car) => (
+        <CarCardWrapper key={car.id}>
+          <CarCard  car={car} />
+        </CarCardWrapper>
         ))}
-      </CarCardWrapper>
+     
     </CarListContainer>
   );
 };
