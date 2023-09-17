@@ -24,7 +24,11 @@ export const FavoriteButton = styled.button`
   cursor: pointer;
   transition: color 0.3s;
 
-  &:hover:active {
+  &:hover {
+    color: blue;
+  }
+
+  &:active {
     color: blue;
   }
 `;
