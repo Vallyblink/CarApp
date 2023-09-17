@@ -9,12 +9,12 @@ const CarListContainer = styled.div`
   justify-content: space-between;
 
   > div {
-    margin-right: 29px; /* 29px між картками */
-    margin-bottom: 50px; /* 50px між рядками карток */
+    margin-right: 29px; 
+    margin-bottom: 50px; 
 
     @media (max-width: 768px) {
       margin-right: 0;
-      margin-bottom: 20px; /* Мобільні пристрої мають менше відстані між рядками */
+      margin-bottom: 20px; 
     }
   }
 
@@ -24,11 +24,11 @@ const CarListContainer = styled.div`
 `;
 
 const CarCardWrapper = styled.div`
-  width: calc(25% - 29px); /* Розділити на 4 картки на рядку з міжкартковими відстанями */
-  box-sizing: border-box; /* Забезпечує відповідний розмір, включаючи margin та padding */
+  width: calc(25% - 29px); 
+  box-sizing: border-box; 
   
   @media (max-width: 768px) {
-    width: 100%; /* Одна карта на рядок на мобільних пристроях */
+    width: 100%; 
   }
 `;
 
