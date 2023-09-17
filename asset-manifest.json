@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb3f153c.css",
-    "main.js": "/static/js/main.b73f8f8f.js",
-    "static/js/621.fb191f66.chunk.js": "/static/js/621.fb191f66.chunk.js",
-    "static/js/973.4017097e.chunk.js": "/static/js/973.4017097e.chunk.js",
-    "static/js/279.cde0608f.chunk.js": "/static/js/279.cde0608f.chunk.js",
-    "static/media/sprite.svg": "/static/media/sprite.5b69afde11123ee5394069759bdcbfed.svg",
-    "index.html": "/index.html",
-    "main.bb3f153c.css.map": "/static/css/main.bb3f153c.css.map",
-    "main.b73f8f8f.js.map": "/static/js/main.b73f8f8f.js.map",
-    "621.fb191f66.chunk.js.map": "/static/js/621.fb191f66.chunk.js.map",
-    "973.4017097e.chunk.js.map": "/static/js/973.4017097e.chunk.js.map",
-    "279.cde0608f.chunk.js.map": "/static/js/279.cde0608f.chunk.js.map"
+    "main.css": "/CarApp/static/css/main.bb3f153c.css",
+    "main.js": "/CarApp/static/js/main.5ca49fc1.js",
+    "static/js/621.639eb273.chunk.js": "/CarApp/static/js/621.639eb273.chunk.js",
+    "static/js/973.4017097e.chunk.js": "/CarApp/static/js/973.4017097e.chunk.js",
+    "static/js/279.cde0608f.chunk.js": "/CarApp/static/js/279.cde0608f.chunk.js",
+    "static/media/sprite.svg": "/CarApp/static/media/sprite.f2fc402162ed1f3ee226127849bbbb85.svg",
+    "index.html": "/CarApp/index.html",
+    "main.bb3f153c.css.map": "/CarApp/static/css/main.bb3f153c.css.map",
+    "main.5ca49fc1.js.map": "/CarApp/static/js/main.5ca49fc1.js.map",
+    "621.639eb273.chunk.js.map": "/CarApp/static/js/621.639eb273.chunk.js.map",
+    "973.4017097e.chunk.js.map": "/CarApp/static/js/973.4017097e.chunk.js.map",
+    "279.cde0608f.chunk.js.map": "/CarApp/static/js/279.cde0608f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb3f153c.css",
-    "static/js/main.b73f8f8f.js"
+    "static/js/main.5ca49fc1.js"
   ]
 }
