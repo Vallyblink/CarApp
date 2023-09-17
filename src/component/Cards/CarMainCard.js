@@ -1,6 +1,6 @@
 import React from "react";
 import sprite from '../../assets/sprite.svg'
-import { CardWrapper, CardImage } from "./CarCard.styled";
+import { CardWrapper, CardImage, FavoriteButton } from "./CarCard.styled";
 import { useDispatch, useSelector } from "react-redux";
 import  { toggleFavoriteCarAction } from "../Redux/carSlice"
 
@@ -22,14 +22,15 @@ const isLiked = likedCars.some(likedCar => likedCar.id === car.id);
   return (
     <CardWrapper>
           <CardImage src={car.img} alt={car.model} />
-          <button onClick={handleToggleFavoriteCar} style={{ color: isLiked ?'blue'  : 'none' }}>
-        <svg
-          aria-label="filter icon"
-          width="16"
-          height="16"
-        >
-          <use href={sprite + '#normal'}></use>
-        </svg> </button>
+          <FavoriteButton onClick={handleToggleFavoriteCar} style={{ color: isLiked ? 'blue' : 'inherit' }}>
+             <svg
+    aria-label="filter icon"
+    width="16"
+    height="16"
+  >
+    <use href={sprite + '#normal'}></use>
+  </svg>
+          </FavoriteButton>
       <h2>{car.make} {car.model}, {car.year}  {car.rentalPrice}</h2>
       <p>{address} {car.rentalCompany} </p>
       <p>{car.type} {car.model} {car.id} {car.functionalities[0]}</p>

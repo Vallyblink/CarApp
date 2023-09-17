@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Suspense fallback={<Loader/>}>
     <Routes>
-      <Route path='/' element={<Home />} />
+      <Route index element={<Home />} />
       <Route path='/carlist' element={<CarList />} />
       <Route path='/favorite' element={<FavoriteCars />} />
         </Routes>
