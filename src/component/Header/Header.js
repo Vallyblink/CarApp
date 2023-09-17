@@ -11,8 +11,8 @@ function Header() {
         </Logo>
       </div>
       <NavButtons>
-        <Link to="/carlist">List</Link> 
-        <Link to="/favorite">Favorite</Link> 
+        <Link to="/catalog">List</Link> 
+        <Link to="/favorites">Favorite</Link> 
       </NavButtons>
     </HeaderContainer>
   );

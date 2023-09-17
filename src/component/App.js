@@ -19,8 +19,8 @@ function App() {
         <Suspense fallback={<Loader/>}>
           <Routes basename="/CarApp">
             <Route path='CarApp' element={<Home />} />
-            <Route path='/carlist' element={<CarList />} />
-            <Route path='/favorite' element={<FavoriteCars />} />
+            <Route path='/catalog' element={<CarList />} />
+            <Route path='/favorites' element={<FavoriteCars />} />
           </Routes>
         </Suspense>
       </PersistGate>
