@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/CarApp/static/css/main.bb3f153c.css",
-    "main.js": "/CarApp/static/js/main.4c7f7b8e.js",
+    "main.js": "/CarApp/static/js/main.be405b54.js",
     "static/js/318.d407d666.chunk.js": "/CarApp/static/js/318.d407d666.chunk.js",
     "static/js/973.9db20d04.chunk.js": "/CarApp/static/js/973.9db20d04.chunk.js",
     "static/js/279.b7d55ba6.chunk.js": "/CarApp/static/js/279.b7d55ba6.chunk.js",
     "index.html": "/CarApp/index.html",
     "static/media/sprite.svg": "/CarApp/static/media/sprite.632e3325ece2f42081db0f0ed37eb6a1.svg",
     "main.bb3f153c.css.map": "/CarApp/static/css/main.bb3f153c.css.map",
-    "main.4c7f7b8e.js.map": "/CarApp/static/js/main.4c7f7b8e.js.map",
+    "main.be405b54.js.map": "/CarApp/static/js/main.be405b54.js.map",
     "318.d407d666.chunk.js.map": "/CarApp/static/js/318.d407d666.chunk.js.map",
     "973.9db20d04.chunk.js.map": "/CarApp/static/js/973.9db20d04.chunk.js.map",
     "279.b7d55ba6.chunk.js.map": "/CarApp/static/js/279.b7d55ba6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb3f153c.css",
-    "static/js/main.4c7f7b8e.js"
+    "static/js/main.be405b54.js"
   ]
 }
