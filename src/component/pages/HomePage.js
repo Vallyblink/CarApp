@@ -55,7 +55,7 @@ function Home() {
       <HomeText>
         Дізнайтеся більше про наші послуги на інших сторінках застосунку.
       </HomeText>
-      <RentButton to="/carlist">Орендувати найкраще авто</RentButton> 
+      <RentButton to="/catalog">Орендувати найкраще авто</RentButton> 
     </HomeContainer>
   );
 }
